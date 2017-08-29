@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+}
+.portada{
+    color: white;
+    background: rgb(247,186,150); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(247,186,150,1) 0%, rgba(140,200,172,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(247,186,150,1) 0%,rgba(140,200,172,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(247,186,150,1) 0%,rgba(140,200,172,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ba96', endColorstr='#8cc8ac',GradientType=1 ); /* IE6-9 */
+}
+hr{
+    background: rgb(247,186,150); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(247,186,150,1) 0%, rgba(140,200,172,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(247,186,150,1) 0%,rgba(140,200,172,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(247,186,150,1) 0%,rgba(140,200,172,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ba96', endColorstr='#8cc8ac',GradientType=1 ); /* IE6-9 */
+    
+}
+.menu{
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu li{
+    margin-top: 0.5rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+}
+.portada h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+/*Sobre*/
+.titulo{
+    color: #8cc8ac;
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+}
+.sobre, .proyectos, .contacto{
+    width: 85%;
+    margin: auto;
+    padding: 0.3rem 1rem 1rem 1rem;
+}
+.sobre p{
+    font-family: 'Questrial', sans-serif;
+}
+/*Proyectos*/
+
+.img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+.contenido{
+    width: 90%;
+    margin: auto;
+    font-family: 'Questrial', sans-serif;
+}
+.contenido h2{
+    color: #8cc8ac;
+    margin: 3rem 0 0 0;
+}
+.descripcion{
+    display: flex;
+    flex-direction: row;
+}
+.program{
+    width: 18%;
+    font-size: 0.8rem;
+}
+.program, .about p{
+    padding: 0.7rem;
+}
+.about{
+    width: 62%;
+    font-size: 1rem;
+}
+.btn{
+    width: 16%;
+    padding-top: 2rem;
+}
+.btn a{
+    text-decoration: none;
+    border: 3px solid rgb(247,186,150);
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    padding: 0.5rem;
+}
+.btn a:hover{
+    background: rgba(247,186,150,1);
+}
+/*Contacto*/
+.form{
+    width: 90%;
+    margin: auto;
+}
+.inpD, .inpZ{
+    width: 47%;
+    height: 1.5rem;
+    padding: 0.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.inpD{
+    margin-left: 0%;
+    margin-right: -22px;
+}
+.inpZ{
+    margin-right: 2%;
+}
+.msj{
+    width: 100%;
+    height: 6rem;
+}

@@ -12,6 +12,12 @@ body{
     background: linear-gradient(to right, rgba(247,186,150,1) 0%,rgba(140,200,172,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ba96', endColorstr='#8cc8ac',GradientType=1 ); /* IE6-9 */
 }
+#btn-menu{
+    display: none;
+}
+.btnm{
+   display: none;
+}
 hr{
     background: rgb(247,186,150); /* Old browsers */
     background: -moz-linear-gradient(left, rgba(247,186,150,1) 0%, rgba(140,200,172,1) 100%); /* FF3.6-15 */
@@ -42,6 +48,22 @@ hr{
     font-size: 3rem;
     text-align: center;
 }
+@media screen and (max-width:500px){
+    .menu{
+        flex-direction: column;
+        display: none;
+        transform: translateX(-34px);
+    }
+    .btnm{
+        display: block;
+        padding: 0.5rem 0 0 0.5rem;
+        font-size: 23px
+    }
+    #btn-menu:checked ~ .menu{
+        display: block;
+    }
+    
+}
 /*Sobre*/
 .titulo{
     color: #8cc8ac;
@@ -56,6 +78,24 @@ hr{
 .sobre p{
     font-family: 'Questrial', sans-serif;
 }
+.texto{
+    width: 70%;
+}
+.foto{
+    width: 25%;
+    padding: 1rem;
+}
+.foto img{
+    width: 90%;
+    height: auto;
+    border-radius: 50%;  
+}
+
+.contenedor{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
 /*Proyectos*/
 
 .img{
@@ -79,23 +119,23 @@ img{
     margin: 3rem 0 0 0;
 }
 .descripcion{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .program{
+    margin: 0.7rem 0.2rem;
     width: 18%;
     font-size: 0.8rem;
 }
-.program, .about p{
-    padding: 0.7rem;
-}
 .about{
+    margin: 0.7rem 0.2rem;
     width: 62%;
     font-size: 1rem;
 }
 .btn{
-    width: 16%;
-    padding-top: 2rem;
+    width: 6.4rem;
+    margin: 3rem 0 0 1.2rem;
 }
 .btn a{
     text-decoration: none;
@@ -107,6 +147,8 @@ img{
 .btn a:hover{
     background: rgba(247,186,150,1);
 }
+
+@media screen and (max-width: 
 /*Contacto*/
 .form{
     width: 90%;

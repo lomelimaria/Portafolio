@@ -48,7 +48,7 @@ hr{
     font-size: 3rem;
     text-align: center;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width: 500px){
     .menu{
         flex-direction: column;
         display: none;
@@ -79,23 +79,46 @@ hr{
     font-family: 'Questrial', sans-serif;
 }
 .texto{
-    width: 70%;
+    width: 68%;
+    text-align: justify;
 }
 .foto{
     width: 25%;
-    padding: 1rem;
+    margin: 1rem auto;
 }
 .foto img{
     width: 90%;
     height: auto;
     border-radius: 50%;  
 }
-
 .contenedor{
     display: inline-flex;
     flex-wrap: wrap;
 }
-
+@media screen and (max-width: 768px){
+    .foto{
+        margin: 1rem auto;
+        width: 27%;
+    }
+    .texto{
+        margin: 0 auto;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 610px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .foto{
+        margin: 1rem auto;
+        width: 30%;
+    }
+    .texto{
+        margin: 0 auto;
+        font-size: 0.9rem;
+    }
+}
 /*Proyectos*/
 
 .img{
@@ -132,6 +155,7 @@ img{
     margin: 0.7rem 0.2rem;
     width: 62%;
     font-size: 1rem;
+    text-align: justify;
 }
 .btn{
     width: 6.4rem;
@@ -147,7 +171,52 @@ img{
 .btn a:hover{
     background: rgba(247,186,150,1);
 }
-
+@media screen and (max-width: 893px){
+    .btn{
+        margin: 3rem 0 0 0rem;
+        font-size: 0.9rem;
+        transform: translateX(18px);        
+    }
+    .about{
+        margin: 0.7rem 0.2rem 0 0;
+        font-size: 0.9rem;
+    }
+    .program{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 747px){
+    .btn{
+        margin: 3rem 0 0 0rem;
+        font-size: 0.8rem;
+        transform: translateX(10px);        
+    }
+    .about{
+        margin: 0.7rem 0rem 0 0;
+        font-size: 0.8rem;
+    }
+    .program{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 726px){
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        margin: 0.7rem auto;
+        font-size: 0.9rem;     
+    }
+    .about{
+        margin: 0rem auto 1.7rem auto;
+        font-size: 0.9rem;
+    }
+    .program{
+        font-size: 0.8rem;
+        margin: 0.7rem auto;
+    }
+}
 /*Contacto*/
 .form{
     width: 90%;

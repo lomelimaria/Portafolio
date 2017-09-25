@@ -225,20 +225,17 @@ img{
 }
 .serieIn{
     width: 100%;
+    box-sizing: border-box;
 }
 .inpD, .inpZ{
     width: 47%;
     height: 1.5rem;
     padding: 0.4rem;
     margin-top: 2rem;
-    margin-bottom: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.31);
     box-shadow:0 0 1px rgba(0, 0, 0, 0.31);
 }
-.inpD{
-    margin-left: 0%;
-    margin-right: -22px;
-}
+
 .inpZ{
     margin-right: 2%;
 }
@@ -247,6 +244,7 @@ img{
     height: 6rem;
     border: 1px solid rgba(0, 0, 0, 0.31);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.31);
+    box-sizing: border-box;
     
 }
 @media screen and (max-width: ){

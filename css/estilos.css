@@ -81,6 +81,7 @@ hr{
 .texto{
     width: 68%;
     text-align: justify;
+    font-size: 1rem;
 }
 .foto{
     width: 25%;
@@ -112,7 +113,7 @@ hr{
     }
     .foto{
         margin: 1rem auto;
-        width: 30%;
+        width: 38%;
     }
     .texto{
         margin: 0 auto;
@@ -222,12 +223,17 @@ img{
     width: 90%;
     margin: auto;
 }
+.serieIn{
+    width: 100%;
+}
 .inpD, .inpZ{
     width: 47%;
     height: 1.5rem;
     padding: 0.4rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    box-shadow:0 0 1px rgba(0, 0, 0, 0.31);
 }
 .inpD{
     margin-left: 0%;
@@ -239,4 +245,10 @@ img{
 .msj{
     width: 100%;
     height: 6rem;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.31);
+    
+}
+@media screen and (max-width: ){
+    
 }

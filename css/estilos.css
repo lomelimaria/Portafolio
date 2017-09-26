@@ -235,9 +235,8 @@ img{
     border: 1px solid rgba(0, 0, 0, 0.31);
     box-shadow:0 0 1px rgba(0, 0, 0, 0.31);
 }
-
 .inpZ{
-    margin-right: 2%;
+    margin-right: 2.2%;
 }
 .msj{
     width: 100%;
@@ -245,8 +244,37 @@ img{
     border: 1px solid rgba(0, 0, 0, 0.31);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.31);
     box-sizing: border-box;
-    
 }
-@media screen and (max-width: ){
-    
+.btnX{
+    width: 100%;
+    margin: 1.1rem auto;
+    border: 3px solid rgb(247,186,150);
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.btnX a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Questrial', sans-serif;
+}
+.btnX:hover{
+    background: rgba(247,186,150,1);
+}
+@media screen and (max-width: 1200px){
+    .inpZ{
+        margin-right: 1.5%;
+    } 
+}
+@media screen and (max-width: 981px){
+
+    .inpD, .inpZ{
+        width: 100%;
+        height: 2.5rem;
+        margin-top: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.31);
+        box-shadow:0 0 1px rgba(0, 0, 0, 0.31);
+        box-sizing: border-box;
+
+    }
 }

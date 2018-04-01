@@ -46,7 +46,15 @@ hr{
 .portada h1{
     font-family: 'Fredoka One', cursive;
     font-size: 3rem;
+    text-align: left;
+}
+h3{
+    font-family: 'Fredoka One', cursive; 
+    text-align: left;  
+}
+.portext{
     text-align: center;
+    padding: 4rem;
 }
 @media screen and (max-width: 500px){
     .menu{
@@ -72,7 +80,7 @@ hr{
 }
 .sobre, .proyectos, .contacto{
     width: 85%;
-    margin: auto;
+    margin: 2.2rem auto;
     padding: 0.3rem 1rem 1rem 1rem;
 }
 .sobre p{
